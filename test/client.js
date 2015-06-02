@@ -1,4 +1,4 @@
-var requireProxy = require('../../../sdk/lib/requireProxy').requireProxy;
+var requireProxy = require('../../../app/demo-rio/sdk/lib/requireProxy').requireProxy;
 requireProxy(['lang'], function(lang) {
   lang.getInitInfo("desktop", function(ret) {
     if (ret.err) return console.log('get Init Info error:', ret.err);
