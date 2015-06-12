@@ -142,7 +142,7 @@ Language.prototype.getLangByName = function(name_, callback_) {
 }
 
 Language.prototype.notify = function(event_, locale_) {
-  this.emit('locale', {
+  stub.notify(event_, {
     Data: {
       event: event_,
       locale: locale_
@@ -164,6 +164,7 @@ Language.prototype.setLocale = function(locale_, callback_) {
   if (this._lConf.locale == locale_) return cb_('Locale is not changed')
   this._lConf.locale = locale_;
   var _this = this;
+
   json4line.writeJSONFile(localPath, this._lConf, function(err_) {
     _this.notify('change', locale_);
     cb_(null);
