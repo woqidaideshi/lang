@@ -1,5 +1,12 @@
 var lang = require('api').lang();
 
+/*var listener = function() {
+  console.log('current locale changed!');
+};
+lang.addListener(function(ret) {
+  console.log('add Listener Event:', ret);
+}, listener);*/
+
 lang.getInitInfo(function(ret) {
   if (ret.err) return console.log('get Init Info error:', ret.err);
   console.log('localeInfo:', ret.ret);
@@ -23,7 +30,7 @@ lang.getInitInfo(function(ret) {
 /*lang.setLocale(function(ret) {
   if (ret.err) return console.log('set Locale error:', ret.err);
   console.log('set locale: OK');
-}, "zh_CN");*/
+}, "en");*/
 
 /*lang.getLocale(function(ret) {
   if (ret.err) return console.log('get  Locale error:', ret.err);

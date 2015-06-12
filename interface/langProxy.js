@@ -205,6 +205,7 @@ Proxy.prototype.removeLang = function(Object, callback) {
  */
 Proxy.prototype.on = function(event, handler) {
   this._ipc.on(event, handler);
+  return this;
 };
 
 /**
@@ -222,6 +223,7 @@ Proxy.prototype.on = function(event, handler) {
  */
 Proxy.prototype.off = function(event, handler) {
   this._ipc.removeListener(event, handler);
+  return this;
 };
 
 var proxy = null;
