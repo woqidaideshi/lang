@@ -66,9 +66,7 @@ var initObj = {
                 err: err
               });
             }
-            callback(null, {
-              'current locale': locale
-            });
+            callback(null, locale);
           });
         }
       }, {
@@ -79,9 +77,7 @@ var initObj = {
                 err: err
               });
             }
-            callback(null, {
-              'the list of available languages': list
-            });
+            callback(null, list);
           });
         }
       }, {
@@ -92,9 +88,7 @@ var initObj = {
                 err: err
               });
             }
-            callback(null, {
-              'language object': langObj
-            });
+            callback(null, langObj);
           });
         },
         pera: name
