@@ -8,33 +8,27 @@ lang.addListener(function(ret) {
 }, listener);*/
 
 lang.getInitInfo(function(ret) {
-  if (ret.err) return console.log('get Init Info error:', ret.err);
-  console.log('localeInfo:', ret.ret);
+  console.log('localeInfo:', ret);
 }, "desktop");
 
 /*lang.getLang(function(ret) {
-  if (ret.err) return console.log('get Lang error:', ret.err);
-  console.log('Lang:', ret.ret);
+  console.log('Lang:', ret);
 }, '');*/
 
 /*lang.getLangByName(function(ret) {
-  if (ret.err) return console.log('get Lang By Name error:', ret.err);
-  console.log('ret:', ret.ret);
+  console.log('ret:', ret);
 }, "desktop");*/
 
 /*lang.getLangList(function(ret) {
-  if (ret.err) return console.log('get Lang List error:', ret.err);
-  console.log('LangList:', ret.ret);
+  console.log('LangList:', ret);
 });*/
 
 /*lang.setLocale(function(ret) {
-  if (ret.err) return console.log('set Locale error:', ret.err);
   console.log('set locale: OK');
 }, "en");*/
 
 /*lang.getLocale(function(ret) {
-  if (ret.err) return console.log('get  Locale error:', ret.err);
-  console.log('Locale:', ret.ret);
+  console.log('Locale:', ret);
 });*/
 
 /*var langString = {
@@ -42,7 +36,6 @@ lang.getInitInfo(function(ret) {
   "path": "/home/qiushi/work/app/demo-rio/service/lang/implements/langs/en"
 };
 lang.addLang(function(ret) {
-  if (ret.err) return console.log('add Lang error:', ret.err);
   console.log('add Lang: OK');
 }, langString);*/
 
@@ -51,6 +44,5 @@ lang.addLang(function(ret) {
   "path": "/home/qiushi/.local/share/webde/langs/en"
 };
 lang.removeLang(function(ret) {
-  if (ret.err) return console.log('remove Lang error:', ret.err);
   console.log('remove Lang: OK');
 }, langString);*/
