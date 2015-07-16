@@ -36,7 +36,7 @@ var initObj = {
     ],
     "show": "l"
   }, {
-    "name": "getLocale",
+    "name": "getCurLocale",
     "in": [],
     "show": "l"
   }, {
@@ -137,7 +137,7 @@ var initObj = {
         callback({});
       });
     },
-    getLocale: function(callback) {
+    getCurLocale: function(callback) {
       lang.getCurLocale(function(err, locale) {
         if (err) {
           return callback({
