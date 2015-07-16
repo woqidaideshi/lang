@@ -23,7 +23,7 @@
       "show": "l"
     },
     {
-      "name": "getLocale",
+      "name": "getCurLocale",
       "in": [],
       "show": "l"
     },

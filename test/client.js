@@ -5,7 +5,7 @@ requireProxy(['lang'], function(lang) {
     console.log('localeInfo:', ret.ret);
   });
 
-  /*lang.getLang('',function(ret) {
+ /* lang.getLang('',function(ret) {
     if(ret.err) return console.log('get Lang error:', ret.err);
     console.log('Lang:', ret.ret);
   });*/
@@ -20,17 +20,17 @@ requireProxy(['lang'], function(lang) {
     console.log('LangList:', ret.ret);
   });*/
 
-  /*lang.setLocale("en",function(ret) {
+  /*lang.setLocale("zh_CN",function(ret) {
     if(ret.err) return console.log('set Locale error:', ret.err);
     console.log('set locale: OK');
   });*/
 
-  /*lang.getLocale(function(ret) {
-    if(ret.err) return console.log('get  Locale error:', ret.err);
-    console.log('Locale:', ret.ret);
+ /* lang.getCurLocale(function(ret) {
+    if(ret.err) return console.log('get  CurLocale error:', ret.err);
+    console.log('CurLocale:', ret.ret);
   });*/
 
-  /*var langString = {"name":"en","path":"/home/qiushi/work/app/demo-rio/service/lang/implements/langs/en"};
+/*  var langString = {"name":"en","path":"/home/qiushi/work/app/demo-rio/service/lang/implements/langs/en"};
   lang.addLang(langString,function(ret) {
     if(ret.err) return console.log('add Lang error:', ret.err);
     console.log('add Lang: OK');

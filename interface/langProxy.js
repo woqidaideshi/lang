@@ -122,12 +122,12 @@ Proxy.prototype.setLocale = function(String, callback) {
  * @return
  *    what will return from this interface
  */
-Proxy.prototype.getLocale = function(callback) {
+Proxy.prototype.getCurLocale = function(callback) {
   var l = arguments.length,
     args = Array.prototype.slice.call(arguments, 0, (typeof callback === 'undefined' ? l : l - 1));
   this._ipc.invoke({
     token: this._token++,
-    name: 'getLocale',
+    name: 'getCurLocale',
     in : args,
     callback: callback
   });

@@ -7,50 +7,50 @@ lang.addListener(function(ret) {
   console.log('add Listener Event:', ret);
 }, listener);*/
 
-lang.getInitInfo(function(ret) {
-  if (ret.err) return console.log('get Init Info error:', ret.err);
-  console.log('localeInfo:', ret.ret);
+lang.getInitInfo(function(err, ret) {
+  if (err) return console.log('getInitInfo error:', err);
+  console.log('localeInfo:', ret);
 }, "desktop");
 
-/*lang.getLang(function(ret) {
-  if (ret.err) return console.log('get Lang error:', ret.err);
-  console.log('Lang:', ret.ret);
+/*lang.getLang(function(err, ret) {
+  if (err) return console.log('getLang error:', err);
+  console.log('Lang:', ret);
 }, '');*/
 
-/*lang.getLangByName(function(ret) {
-  if (ret.err) return console.log('get Lang By Name error:', ret.err);
-  console.log('ret:', ret.ret);
+/*lang.getLangByName(function(err, ret) {
+  if (err) return console.log('getLangByName error:', err);
+  console.log('ret:', ret);
 }, "desktop");*/
 
-/*lang.getLangList(function(ret) {
-  if (ret.err) return console.log('get Lang List error:', ret.err);
-  console.log('LangList:', ret.ret);
+/*lang.getLangList(function(err, ret) {
+  if (err) return console.log('getLangList error:', err);
+  console.log('LangList:', ret);
 });*/
 
-/*lang.setLocale(function(ret) {
-  if (ret.err) return console.log('set Locale error:', ret.err);
-  console.log('set locale: OK');
+/*lang.setLocale(function(err, ret) {
+  if (err) return console.log('setLocale error:', err);
+  console.log('set locale: success!');
 }, "en");*/
 
-/*lang.getLocale(function(ret) {
-  if (ret.err) return console.log('get  Locale error:', ret.err);
-  console.log('Locale:', ret.ret);
+/*lang.getCurLocale(function(err, ret) {
+  if (err) return console.log('getCurLocale error:', err);
+  console.log('CurLocale:', ret);
 });*/
 
 /*var langString = {
   "name": "en",
   "path": "/home/qiushi/work/app/demo-rio/service/lang/implements/langs/en"
 };
-lang.addLang(function(ret) {
-  if (ret.err) return console.log('add Lang error:', ret.err);
-  console.log('add Lang: OK');
+lang.addLang(function(err, ret) {
+  if (err) return console.log('addLang error:', err);
+  console.log('add Lang: success!');
 }, langString);*/
 
 /*var langString = {
   "name": "en",
   "path": "/home/qiushi/.local/share/webde/langs/en"
 };
-lang.removeLang(function(ret) {
-  if (ret.err) return console.log('remove Lang error:', ret.err);
-  console.log('remove Lang: OK');
+lang.removeLang(function(err, ret) {
+  if (err) return console.log('removeLang error:', err);
+  console.log('remove Lang: success!');
 }, langString);*/
