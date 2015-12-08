@@ -82,5 +82,25 @@
   "logging": "Logging now, please wait...",
   "commit": "Commit",
   "logout_warnning": "Are you sure to logout?",
-  "search": "Search"
+  "search": "Search",
+
+  #hardRes
+  "printer":"printer",
+  "hard Resource":" hard Resource",
+  "input resource":"input resource",
+  "output resource":"output resource",
+  "mouse":"mouse",
+  "keyboard":"keyboard",
+  "VGA":"VGA",
+  "audio":"audio",
+  "Ethernet":"Ethernet",
+  "WiFi":"wi-fi",
+  "disk info":"disk info",
+  "printer info":"print info",
+  "filesystem":"filesystem",
+  "totalSize":"totalSize",
+  "used":"used",
+  "available":"available",
+  "capacity":"capacity",
+  "mounted":"mounted"
 }

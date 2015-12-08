@@ -82,5 +82,26 @@
   "logging": "正在登录，请稍后...",
   "commit": "提交",
   "logout_warnning": "确定登出此账户？",
-  "search": "搜索"
+  "search": "搜索",
+
+
+  #hardRes
+  "printer":"打印机",
+  "hard Resource":" 硬件信息",
+  "input resource":"输入设备",
+  "output resource":"输出设备",
+  "mouse":"鼠标",
+  "keyboard":"键盘",
+  "VGA":"显卡",
+  "audio":"声卡",
+  "Ethernet":"有线连接",
+  "WiFi":"wi-fi",
+  "disk info":"硬盘信息",
+  "printer info":"打印机信息",
+  "filesystem":"文件系统",
+  "totalSize":"总大小",
+  "used":"已用大小",
+  "available":"可用大小",
+  "capacity":"已用占比",
+  "mounted":"挂载点"
 }
