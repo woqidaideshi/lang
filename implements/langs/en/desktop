@@ -98,6 +98,7 @@
   "disk info":"disk info",
   "printer info":"print info",
   "filesystem":"filesystem",
+  "type":"type",
   "totalSize":"totalSize",
   "used":"used",
   "available":"available",

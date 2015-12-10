@@ -99,6 +99,7 @@
   "disk info":"硬盘信息",
   "printer info":"打印机信息",
   "filesystem":"文件系统",
+  "type":"类型",
   "totalSize":"总大小",
   "used":"已用大小",
   "available":"可用大小",
